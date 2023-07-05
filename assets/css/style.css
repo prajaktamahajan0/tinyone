@@ -1,0 +1,263 @@
+:root {
+      --color-pri: #fcd00f;
+      --color-sec: #010101;
+      --color-grey-3: #898989;
+      --color-white: #fff;
+      --color-grey-1: #313841;
+      --color-grey-2: #555555;
+      --color-dark: #000;
+}
+
+.header {
+      background-color: var(--color-pri);
+}
+
+.section {
+      padding: 10rem 0;
+}
+
+.inspiration {
+      margin-top: 6rem;
+}
+
+.pri-heading {
+
+      font-weight: bold;
+      color: var(--color-sec);
+      margin-bottom: 2.5rem;
+}
+
+.sec-heading {
+      color: var(--color-sec);
+      margin-bottom: 2.5rem;
+}
+
+.inspiration .para {
+      color: var(--color-grey-1);
+      margin-bottom: 3rem;
+      font-size: 1.6rem;
+}
+
+.ipad {
+      margin-bottom: 2rem;
+}
+
+.navbar-brand {
+      padding: 2.5px 1.5rem;
+}
+
+.header .navbar-default {
+      background-color: transparent;
+      border-color: transparent;
+      margin-bottom: 7rem;
+      margin-top: 60px;
+}
+
+.navbar-default .navbar-nav>li>a {
+      color: var(--color-sec);
+      font-size: 2.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+}
+
+.header .navbar-default .navbar-nav>li>a::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 2px;
+      width: 0;
+      transition: all .3s ease-in-out;
+}
+
+.header .navbar-default .navbar-nav>li>a:hover {
+      width: 100%;
+}
+
+.features {
+      padding: 5rem 0;
+}
+
+.socialicons a {
+      color: var(--color-pri);
+      margin-right: 4rem;
+}
+
+.heading-wrap {
+      padding: 0 3.5rem;
+      margin-bottom: 9rem;
+
+}
+
+.contact {
+      background-color: var(--color-dark);
+      padding: 2rem;
+}
+
+.contact h2 {
+      color: var(--color-pri);
+      font-size: 3.2rem;
+      font-weight: 400;
+}
+
+.contact p {
+      color: var(--color-grey-3);
+      font-size: 2rem;
+      font-weight: 400;
+}
+
+.thumbInfo {
+      margin-bottom: 9rem;
+}
+
+.thumbInfo h4 {
+      font-size: 2.2rem;
+      color: var(--color-sec);
+      margin-bottom: 1.5rem;
+      margin-top: 0;
+      text-transform: capitalize;
+      font-weight: bold;
+}
+
+.thumbInfo p {
+      color: var(--color-grey-3);
+      font-size: 1.6rem;
+      margin-bottom: 4.5rem;
+}
+
+.intouchBtn {
+      background-color: var(--color-pri);
+      border: 1px solid var(--color-pri);
+      color: var(--color-sec);
+      font-weight: 700;
+      text-transform: uppercase;
+
+}
+
+.signUpEmail input,
+.intouchBtn {
+      height: 5rem;
+      margin-bottom: 6rem;
+}
+
+.intouchBtn:hover,
+.intouchBtn:focus,
+.intouchBtn:active {
+      background-color: var(--color-sec);
+      color: var(--color-pri);
+}
+
+.signUpEmail::placeholder {
+      color: var(--color-grey-3);
+}
+
+.socialicons {
+      color: var(--color-pri);
+      margin-bottom: 6rem;
+}
+
+
+.footerlinks li,
+.footerlinks a {
+      color: var(--color-white);
+
+}
+
+a:link,
+a:visited {
+      text-decoration: none;
+}
+
+ul {
+      list-style: none;
+}
+
+
+
+@media all and (max-width:768px) {
+      .section {
+            padding: 4rem 0;
+      }
+
+      .header .navbar-default,
+      .featuresThumb {
+            margin-bottom: 2rem;
+      }
+
+      .thumbInfo {
+            margin-bottom: 0;
+      }
+
+      .features {
+            padding-bottom: 0;
+      }
+
+
+      .inspiration {
+            margin-top: 0;
+            text-align: center;
+
+      }
+
+      .inspiration .para {
+            margin-bottom: 2rem;
+      }
+
+      .heading-wrap {
+            margin-bottom: 2rem;
+            padding: 0;
+      }
+
+      .ipad {
+            width: 100%;
+            padding: 2rem;
+            text-align: center;
+
+      }
+
+      .inspiration .socialicons a {
+            color: var(--color-sec);
+            margin-right: 0;
+
+      }
+
+      .contact .socialicons a {
+            color: var(--color-pri);
+            margin-right: 0;
+      }
+
+      .socialicons {
+            text-align: center;
+            margin-bottom: 2rem;
+      }
+
+      .featuresThumb {
+            margin-bottom: 0rem;
+      }
+
+      .para {
+            color: var(--color-grey-2);
+            margin-bottom: 0;
+            font-size: 2rem;
+      }
+
+      .signUpEmail input,
+      .intouchBtn {
+            height: 5rem;
+            margin-bottom: 1rem;
+      }
+
+      .navbar-default .navbar-toggle {
+            border-color: var(--color-sec);
+      }
+
+      .navbar-default .navbar-toggle:focus,
+      .navbar-default .navbar-toggle:hover {
+            background-color: transparent;
+      }
+
+      .navbar-default .navbar-toggle .icon-bar {
+            background-color: var(--color-sec);
+      }
+
+}
